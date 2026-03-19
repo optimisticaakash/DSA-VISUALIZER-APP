@@ -183,7 +183,7 @@ body.dark-mode::before {
 .footer-row-developer p {
     margin: 0;
     color: var(--muted-text);
-    font-size: 13px;
+    font-size: 15px;
 }
 
 .footer-icon-link {
@@ -240,7 +240,7 @@ body:not(.dark-mode) .footer {
     color: var(--muted-text);
     text-decoration: none;
     font-weight: 600;
-    font-size: 13px;
+    font-size: 15px;
     padding: 6px 10px;
     border-radius: 999px;
     transition: color 0.25s ease, background-color 0.25s ease, transform 0.25s ease;
