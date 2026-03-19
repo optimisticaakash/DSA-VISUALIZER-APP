@@ -2,6 +2,30 @@
 
 Interactive frontend project for learning Data Structures and Algorithms through animations, color-based state changes, and sound feedback. The website is built with plain `HTML`, `CSS`, and `JavaScript`, so it runs directly in the browser without any framework or build setup.
 
+## About This Project
+
+The **DSA Visualizer App** is an interactive platform that helps users understand Data Structures and Algorithms through animations, color transitions, and real-time feedback.
+
+It allows users to visualize sorting algorithms and basic data structures, making complex concepts easier to learn and more engaging.
+
+## Why I Built This
+
+I created this project to strengthen my understanding of DSA and improve my frontend development skills by building a practical, real-world application.
+
+## About Me
+
+Hi, I’m **Aakash Morya**, a final-year engineering student focused on becoming a Software Engineer.
+
+I am currently working on DSA and web development, and I enjoy building interactive and user-friendly projects.
+
+## Future Goals
+
+- Add more algorithms like BFS, DFS, and Heap Sort
+- Improve UI/UX and overall performance
+- Add a step-by-step learning mode
+
+⭐ This project reflects my learning journey and passion for development.
+
 ## Overview
 
 This project is a multi-page DSA visualizer website where users can:
@@ -270,4 +294,5 @@ It turns abstract logic into something users can actually watch, control, and un
 
 ## Author
 
-Created as a learning-focused DSA visualization project using vanilla web technologies.
+**Aakash Morya**  
+Final-year engineering student and aspiring Software Engineer.
