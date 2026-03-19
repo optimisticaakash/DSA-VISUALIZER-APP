@@ -213,7 +213,20 @@ body:not(.dark-mode) .card:hover {
 }
 
 .about-panel p {
-    margin: 0;
+    margin: 0 0 14px;
+    color: var(--card-text);
+    line-height: 1.7;
+}
+
+.about-panel h3 {
+    margin: 22px 0 10px;
+    color: var(--card-heading);
+    font-size: 20px;
+}
+
+.about-panel ul {
+    margin: 0 0 14px 20px;
+    padding: 0;
     color: var(--card-text);
     line-height: 1.7;
 }
