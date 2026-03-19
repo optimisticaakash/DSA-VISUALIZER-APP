@@ -214,4 +214,4 @@ Simply open `index.html` in your browser.
 ---
 
 ⭐ If you like this project, don’t forget to star the repo!
->>>>>>> 081c16518aabf47e2237c78df3dd480ad135aded
+
