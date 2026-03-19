@@ -215,7 +215,8 @@ Simply open `index.html` in your browser.
 
 **Aakash Morya**
 
-🔗 GitHub: https://github.com/optimisticaakash
+🔗 GitHub: https://github.com/optimisticaakash/DSA-VISUALIZER-APP
+
 
 ---
 
