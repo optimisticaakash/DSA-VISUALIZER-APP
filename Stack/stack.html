@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stack Visualizer</title>
+    <link rel="stylesheet" href="../global-theme.css">
+    <link rel="stylesheet" href="stack.css">
+</head>
+<body>
+    <nav class="navbar">
+        <a class="nav-brand" href="../index.html">DSA Visualizer App</a>
+        <div class="nav-actions">
+            <a class="nav-link" href="https://github.com/" target="_blank" rel="noreferrer">GitHub</a>
+            <a class="nav-link" href="../index.html#about">About</a>
+            <button class="theme-toggle" id="theme-toggle" type="button">Light Mode</button>
+        </div>
+    </nav>
+    <div class="header">
+        <h1>Stack (LIFO) Visualizer</h1>
+        <div class="controls">
+            <input type="number" id="stack-input" placeholder="Enter a number" />
+            <button id="push-btn">Push</button>
+            <button id="pop-btn">Pop</button>
+        </div>
+        <div class="stack-meta">
+            <div class="stack-label">Top of Stack ↑</div>
+            <div class="capacity-wrap">
+                <span>Capacity</span>
+                <div class="capacity-bar">
+                    <div class="capacity-fill" id="capacity-fill"></div>
+                </div>
+                <span id="capacity-text">0 / 8</span>
+            </div>
+        </div>
+    </div>
+    
+    <div id="stack-container"></div>
+
+    <script src="../theme.js"></script>
+    <script src="../audio.js"></script>
+    <script src="stack.js"></script>
+</body>
+</html>

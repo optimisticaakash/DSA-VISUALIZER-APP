@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selection Sort Visualizer</title>
+    <link rel="stylesheet" href="../global-theme.css">
+    <link rel="stylesheet" href="selection.css">
+</head>
+<body>
+    <nav class="navbar">
+        <a class="nav-brand" href="../index.html">DSA Visualizer App</a>
+        <div class="nav-actions">
+            <a class="nav-link" href="https://github.com/" target="_blank" rel="noreferrer">GitHub</a>
+            <a class="nav-link" href="../index.html#about">About</a>
+            <button class="theme-toggle" id="theme-toggle" type="button">Light Mode</button>
+        </div>
+    </nav>
+    <div class="header">
+        <h1>Selection Sort Visualizer</h1>
+        <div class="controls">
+            <div class="slider-container">
+                <label for="size-slider">Array size: 
+                    <span id = "size-value">15</span>
+                </label>
+                <input type="range" id = "size-slider" min = "5" max = "50" value = "15">
+            </div>
+            <div class="slider-container">
+                <label for="speed-slider">Speed:
+                    <span id="speed-value">60</span>
+                </label>
+                <input type="range" id="speed-slider" min="1" max="100" value="60">
+            </div>
+            <div class="action-row">
+                <button id="generate-btn">Generate New Array</button>
+                <button id="sort-btn">Start Selection Sort</button>
+            </div>
+        </div>
+        <p class="status-line" id="status-text">Ready to visualize Selection Sort.</p>
+        <div class="meta-grid">
+            <div class="meta-card">Time Complexity: <strong>O(n²)</strong></div>
+            <div class="meta-card">Space Complexity: <strong>O(1)</strong></div>
+        </div>
+    </div>
+    
+    <div id="array-container"></div>
+
+    <script src="../theme.js"></script>
+    <script src="../audio.js"></script>
+    <script src="seletion.js"></script>
+</body>
+</html>
