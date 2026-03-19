@@ -1,221 +1,144 @@
-# DSA Visualizer App
+# 🚀 DSA Visualizer App
 
-Interactive frontend project for learning Data Structures and Algorithms through animations, color-based state changes, and sound feedback. The website is built with plain `HTML`, `CSS`, and `JavaScript`, so it runs directly in the browser without any framework or build setup.
+An interactive web application to **visualize Data Structures and Algorithms** using animations, color transitions, and audio feedback.
 
-## About This Project
 
-The **DSA Visualizer App** is an interactive platform that helps users understand Data Structures and Algorithms through animations, color transitions, and real-time feedback.
 
-It allows users to visualize sorting algorithms and basic data structures, making complex concepts easier to learn and more engaging.
+## 🧭 Overview
+<img width="1438" height="853" alt="image" src="https://github.com/user-attachments/assets/b74eda36-af51-4304-9bf0-00db1e8f8194" />
 
-## Why I Built This
+<img width="1438" height="853" alt="image" src="https://github.com/user-attachments/assets/be2ab9ef-8085-419e-a8f6-871ba66f0d50" />
 
-I created this project to strengthen my understanding of DSA and improve my frontend development skills by building a practical, real-world application.
 
-## About Me
 
-Hi, I’m **Aakash Morya**, a final-year engineering student focused on becoming a Software Engineer.
+This is a **multi-page DSA visualizer platform** where users can explore algorithms and data structures interactively.
 
-I am currently working on DSA and web development, and I enjoy building interactive and user-friendly projects.
+The homepage acts as a **dashboard**, allowing users to navigate to different visualizers.
 
-## Future Goals
+---
 
-- Add more algorithms like BFS, DFS, and Heap Sort
-- Improve UI/UX and overall performance
-- Add a step-by-step learning mode
+## 🏠 Home Page
 
-⭐ This project reflects my learning journey and passion for development.
+* Sticky navigation bar
+* Theme toggle button
+* Cards for algorithms and data structures
+* About section explaining project purpose
 
-## Overview
+---
 
-This project is a multi-page DSA visualizer website where users can:
+## 📊 Implemented Visualizers
 
-- Explore sorting algorithms visually with animated bars
-- Adjust array size and animation speed
-- Pause and resume sorting animations
-- Learn basic data structure operations through direct interaction
-- Switch between dark mode and light mode
-- Get audio cues during comparisons, swaps, insertions, and completion
+### 🔁 Sorting Algorithms
 
-The homepage works like a dashboard and routes users to separate visualizers for each algorithm and data structure.
+#### 🟡 Bubble Sort
 
-## Website Sections
+* Adjustable size (5–50) & speed (1–100)
+* Real-time comparisons & swaps
+* Pause/Resume support
+* Complexity: `O(n²)` time, `O(1)` space
 
-### 1. Home Page
+---
 
-The landing page (`index.html`) includes:
+#### 🔵 Selection Sort
 
-- A sticky navbar
-- Project branding
-- A theme toggle button
-- Cards for all available sorting algorithms
-- Cards for data structure visualizers
-- An About section explaining the purpose of the project
+* Highlights minimum element
+* Step-by-step placement
+* Live status updates
+* Complexity: `O(n²)` time, `O(1)` space
 
-Each card opens a dedicated visualizer page.
+---
 
-## Implemented Visualizers
+#### 🟢 Insertion Sort
 
-### Sorting Algorithms
+* Key element highlighting
+* Shifting animation
+* Progressive sorted portion
+* Complexity: `O(n²)` time, `O(1)` space
 
-#### Bubble Sort
+---
 
-Features:
+#### 🟣 Merge Sort
 
-- Generates a random array using vertical bars
-- Lets the user control array size from `5` to `50`
-- Lets the user control animation speed from `1` to `100`
-- Starts Bubble Sort animation on button click
-- Supports pause and resume during sorting
-- Highlights compared bars in red
-- Marks sorted bars in green
-- Updates a live status message for every major step
-- Shows time complexity `O(n²)` and space complexity `O(1)`
-- Plays audio feedback during comparisons, swaps, and completion
+* Divide & conquer visualization
+* Left/right/merge color states
+* Recursive animation
+* Complexity: `O(n log n)` time, `O(n)` space
 
-#### Selection Sort
+---
 
-Features:
+#### 🔴 Quick Sort
 
-- Random array generation with adjustable size
-- Adjustable animation speed
-- Pause and resume support
-- Highlights the current minimum and scanning bars using different colors
-- Swaps the minimum value into its correct position after each pass
-- Shows live status updates like scanning, comparing, and placing minimum
-- Displays complexity details:
-  - Time: `O(n²)`
-  - Space: `O(1)`
-- Uses sound feedback for comparisons, minimum updates, placements, and completion
+* Pivot-based partitioning
+* Dynamic highlighting (pivot, swaps)
+* Real-time updates
+* Complexity: `O(n log n)` average
 
-#### Insertion Sort
+---
 
-Features:
+### 🧱 Data Structures
 
-- Random bar-based array generation
-- Adjustable array size and speed
-- Pause and resume functionality
-- Highlights the selected key element
-- Animates shifting of larger elements to the right
-- Marks the sorted portion progressively
-- Live status updates for key selection, shifting, and insertion
-- Displays complexity details:
-  - Time: `O(n²)`
-  - Space: `O(1)`
-- Includes sound feedback during comparison, shifting, insertion, and completion
+#### 📚 Stack (LIFO)
 
-#### Merge Sort
+* Push / Pop operations
+* Capacity limit (8 elements)
+* Animated removal
+* Overflow & Underflow handling
 
-Features:
+---
 
-- Generates a random array visualized as bars
-- Adjustable array size and speed
-- Pause and resume support
-- Uses recursive divide-and-conquer logic
-- Highlights left half, right half, and merged bars using different colors
-- Animates the merge process step by step
-- Displays live merging status using index ranges
-- Shows complexity details:
-  - Time: `O(n log n)`
-  - Space: `O(n)`
-- Includes audio feedback during merge placement and completion
+#### 🚶 Queue (FIFO)
 
-#### Quick Sort
+* Enqueue / Dequeue operations
+* Entry & exit animations
+* Capacity limit (8 elements)
+* Input validation
 
-Features:
+---
 
-- Random bar generation
-- Adjustable array size and speed
-- Pause and resume support
-- Uses the last element as pivot during partitioning
-- Highlights pivot, current comparisons, active partition area, and sorted bars
-- Animates swaps and pivot placement
-- Shows live status messages for pivot selection and comparisons
-- Displays complexity details:
-  - Time: `O(n log n)` average
-  - Space: `O(log n)`
-- Includes sound feedback for pivot selection, comparisons, swaps, placements, and completion
+## 🔁 Shared Features
 
-### Data Structures
+### 🌗 Theme Toggle
 
-#### Stack Visualizer
+* Dark & Light mode
+* Stored in `localStorage`
+* Synced across all pages
 
-This page demonstrates the `LIFO` (Last In First Out) behavior of a stack.
+---
 
-Features:
+### 🔊 Audio Feedback
 
-- Input box for entering numeric values
-- `Push` operation to insert a new item on top
-- `Pop` operation to remove the top item
-- Capacity limit of `8` elements
-- Capacity progress bar showing current usage
-- Animated pop effect before removal
-- Audio feedback on push and pop
-- Input validation for empty values
-- Overflow and underflow alerts
+Using **AudioContext API**:
 
-#### Queue Visualizer
+* Compare sound
+* Swap sound
+* Placement tone
+* Completion sound
 
-This page demonstrates the `FIFO` (First In First Out) behavior of a queue.
+---
 
-Features:
+### 📢 Status & Learning Support
 
-- Input box for entering numeric values
-- `Enqueue` operation to add an item at the rear
-- `Dequeue` operation to remove an item from the front
-- Capacity limit of `8` elements
-- Entry animation when an item is added
-- Exit animation when an item is removed
-- Audio feedback on enqueue and dequeue
-- Input validation for empty values
-- Overflow and underflow alerts
+* Real-time execution status
+* Complexity display cards
+* Color-coded states
+* Interactive controls
 
-## Shared Project Features
+---
 
-These features are reused across multiple pages:
+## 🛠️ Tech Stack
 
-### Theme Toggle
+* HTML5
+* CSS3
+* JavaScript (Vanilla JS)
+* AudioContext API
+* localStorage
 
-- Dark mode and light mode are supported
-- Selected theme is saved using `localStorage`
-- Theme stays synced across pages
-- If a page does not already contain a navbar toggle, the shared script can inject it automatically
+---
 
-### Audio Feedback
+## 📂 Project Structure
 
-The project includes a reusable audio system using the browser `AudioContext` API.
-
-It provides:
-
-- Compare tone
-- Pair/swap tone
-- Placement tone
-- Completion tone
-- Custom tone generation for stack and queue operations
-
-This makes the visualizers more interactive and engaging.
-
-### Status and Learning Support
-
-The sorting pages include:
-
-- Real-time status text
-- Complexity cards
-- Responsive controls
-- Clear color-based visualization states
-
-## Tech Stack
-
-- `HTML5`
-- `CSS3`
-- `JavaScript (Vanilla JS)`
-- Browser `AudioContext` API
-- `localStorage` for theme persistence
-
-## Project Structure
-
-```text
-DSA visualizer app/
+```bash
+DSA-Visualizer-App/
 ├── index.html
 ├── style.css
 ├── global-theme.css
@@ -232,67 +155,63 @@ DSA visualizer app/
 └── README.md
 ```
 
-## How To Run
+---
 
-Since this is a static frontend project, you can run it very easily:
+## 🚀 How to Run
 
-### Option 1: Open directly
+### 🔹 Option 1: Direct Run
 
-Open `index.html` in your browser.
+Simply open `index.html` in your browser.
 
-### Option 2: Use Live Server
+---
 
-If you are using VS Code, you can run the project with the Live Server extension for a smoother experience.
+### 🔹 Option 2: Live Server (Recommended)
 
-Recommended steps:
-
-1. Open the project folder in VS Code
+1. Open project in VS Code
 2. Open `index.html`
 3. Start Live Server
-4. Browse the homepage and open any visualizer card
 
-## User Flow
+---
 
-1. Open the homepage
-2. Choose any sorting algorithm or data structure card
-3. For sorting pages:
-   - Generate a random array
-   - Adjust size and speed
-   - Start visualization
-   - Pause or resume if needed
-4. For stack or queue pages:
-   - Enter a number
-   - Perform push/pop or enqueue/dequeue operations
-5. Switch theme anytime using the top-right toggle
+## 🎯 User Flow
 
-## Educational Value
+1. Open homepage
+2. Select any visualizer
+3. Adjust controls (size/speed)
+4. Start visualization
+5. Pause/Resume anytime
+6. Switch theme anytime
 
-This project is useful for:
+---
 
-- DSA beginners
-- Students preparing for interviews
-- Teachers explaining algorithm behavior visually
-- Anyone who learns better through animation and interaction
+## 🎓 Educational Value
 
-It turns abstract logic into something users can actually watch, control, and understand.
+✔ Perfect for beginners
+✔ Helps in interview preparation
+✔ Makes algorithms visually understandable
+✔ Great for teaching & demos
 
-## Possible Future Improvements
+---
 
-- Add more algorithms like Heap Sort, BFS, DFS, Binary Search, and Linked List
-- Add step-by-step manual mode
-- Add complexity comparison charts
-- Add code snippet panels beside each visualizer
-- Add user-defined custom arrays
-- Add mobile interaction refinements
-- Replace placeholder GitHub links with the actual repository URL
+## 🚧 Future Improvements
 
-## Notes
+* Add Heap Sort, BFS, DFS
+* Add step-by-step manual mode
+* Add code snippets alongside visualization
+* Add custom input arrays
+* Improve mobile responsiveness
 
-- The current navbar `GitHub` links are placeholders and point to `https://github.com/`
-- No package manager or build command is required
-- The project is fully frontend-based
+---
 
-## Author
+## 👨‍💻 Author
 
-**Aakash Morya**  
-Final-year engineering student and aspiring Software Engineer.
+
+**Aakash Morya**
+
+🔗 GitHub: https://github.com/optimisticaakash/DSA-VISUALIZER-APP
+
+
+---
+
+⭐ If you like this project, don’t forget to star the repo!
+>>>>>>> 081c16518aabf47e2237c78df3dd480ad135aded
