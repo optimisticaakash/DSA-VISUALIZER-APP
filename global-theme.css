@@ -117,7 +117,7 @@ body.dark-mode::before {
 
 .navbar {
     background: var(--navbar-bg);
-    padding: 15px 40px;
+    padding: 10px 28px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
     border-bottom: 1px solid var(--navbar-border);
     backdrop-filter: blur(10px);
@@ -134,7 +134,7 @@ body.dark-mode::before {
 
 .footer {
     background: var(--navbar-bg);
-    padding: 18px 40px;
+    padding: 12px 28px;
     box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.05);
     border-top: 1px solid var(--navbar-border);
     backdrop-filter: blur(10px);
@@ -142,9 +142,9 @@ body.dark-mode::before {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 16px;
+    gap: 10px;
     flex-wrap: wrap;
-    margin-top: 48px;
+    margin-top: 32px;
 }
 
 .footer-simple {
@@ -152,7 +152,7 @@ body.dark-mode::before {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 16px;
+    gap: 10px;
 }
 
 .footer-row {
@@ -164,34 +164,34 @@ body.dark-mode::before {
 
 .footer-row-brand {
     flex-direction: column;
-    gap: 8px;
+    gap: 4px;
     text-align: center;
 }
 
 .footer-text {
     margin: 0;
     color: var(--muted-text);
-    line-height: 1.7;
-    font-size: 14px;
+    line-height: 1.5;
+    font-size: 13px;
 }
 
 .footer-row-icons {
-    gap: 14px;
+    gap: 10px;
     flex-wrap: wrap;
 }
 
 .footer-row-developer p {
     margin: 0;
     color: var(--muted-text);
-    font-size: 14px;
+    font-size: 13px;
 }
 
 .footer-icon-link {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 44px;
-    height: 44px;
+    width: 36px;
+    height: 36px;
     color: var(--muted-text);
     text-decoration: none;
     border-radius: 999px;
@@ -215,7 +215,7 @@ body:not(.dark-mode) .footer {
 .nav-brand,
 .logo,
 .footer-brand {
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 700;
     color: var(--logo-color);
     letter-spacing: 1.5px;
@@ -233,22 +233,22 @@ body:not(.dark-mode) .footer {
 .nav-actions {
     display: flex;
     align-items: center;
-    gap: 12px;
+    gap: 8px;
 }
 
 .nav-link {
     color: var(--muted-text);
     text-decoration: none;
     font-weight: 600;
-    font-size: 14px;
-    padding: 8px 12px;
+    font-size: 13px;
+    padding: 6px 10px;
     border-radius: 999px;
     transition: color 0.25s ease, background-color 0.25s ease, transform 0.25s ease;
 }
 
 .footer-icon-link svg {
-    width: 20px;
-    height: 20px;
+    width: 16px;
+    height: 16px;
 }
 
 .nav-link:hover {
@@ -326,8 +326,8 @@ body:not(.dark-mode) .footer {
 .toggle-btn {
     background: rgba(255, 255, 255, 0.12);
     color: var(--logo-color);
-    width: 56px;
-    height: 56px;
+    width: 42px;
+    height: 42px;
     padding: 0;
     border-radius: 999px;
     border: 1px solid var(--toggle-border);
@@ -350,8 +350,8 @@ body:not(.dark-mode) .footer {
 
 #theme-toggle svg,
 .toggle-btn svg {
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
     display: block;
     transition: transform 0.35s ease, filter 0.35s ease;
     filter: drop-shadow(0 0 8px rgba(59, 130, 246, 0.16));
@@ -375,7 +375,7 @@ body:not(.dark-mode) .footer {
     .footer {
         justify-content: center;
         text-align: center;
-        padding: 14px 18px;
+        padding: 10px 16px;
     }
 
     .nav-actions {
