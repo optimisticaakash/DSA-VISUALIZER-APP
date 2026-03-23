@@ -7,8 +7,6 @@ An interactive web application to **visualize Data Structures and Algorithms** u
 ## 🧭 Overview
 <img width="1438" height="853" alt="image" src="https://github.com/user-attachments/assets/b74eda36-af51-4304-9bf0-00db1e8f8194" />
 
-<img width="1438" height="853" alt="image" src="https://github.com/user-attachments/assets/be2ab9ef-8085-419e-a8f6-871ba66f0d50" />
-
 
 
 This is a **multi-page DSA visualizer platform** where users can explore algorithms and data structures interactively.
