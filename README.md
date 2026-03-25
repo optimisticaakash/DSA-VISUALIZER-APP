@@ -212,4 +212,3 @@ Simply open `index.html` in your browser.
 ---
 
 ⭐ If you like this project, don’t forget to star the repo!
-

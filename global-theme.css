@@ -94,6 +94,8 @@ body {
     background-size: cover, cover;
     color: var(--text-color);
     min-height: 100vh;
+    display: flex;
+    flex-direction: column;
     transition: background 0.3s ease, color 0.3s ease, opacity 0.35s ease;
     opacity: 0;
 }
@@ -144,7 +146,7 @@ body.dark-mode::before {
     justify-content: space-between;
     gap: 10px;
     flex-wrap: wrap;
-    margin-top: 32px;
+    margin-top: auto;
 }
 
 .footer-simple {
