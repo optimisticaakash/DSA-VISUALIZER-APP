@@ -73,6 +73,15 @@ The homepage acts as a **dashboard**, allowing users to navigate to different vi
 
 ---
 
+#### 🔁 Cyclic Sort
+
+* Visualizes direct placement of numbers into their correct index
+* Uses shuffled values from `1` to `n`
+* Real-time comparison and swap feedback
+* Complexity: `O(n)` time, `O(1)` space
+
+---
+
 ### 🧱 Data Structures
 
 #### 📚 Stack (LIFO)
@@ -148,6 +157,7 @@ DSA-Visualizer-App/
 ├── insertion sort/
 ├── merge sort/
 ├── Quick sort/
+├── Cyclic sort/
 ├── Stack/
 ├── Queue/
 └── README.md
